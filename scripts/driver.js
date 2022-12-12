@@ -53,7 +53,7 @@ window.addEventListener("load", () => {
     const displayCount = document.querySelector("#alb-count");
     const displayBtn = document.querySelector("#show");
 
-    for (let i = 194; i <= 194; i++) {
+    for (let i = 1; i <= 5; i++) {
         displayCount.innerHTML += `<option value=${i}>${i}</option>`;
     }
 
