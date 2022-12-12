@@ -7,6 +7,11 @@ figure {
     height: 362px;
 }
 
+img {
+    height: 174px;
+    width: 174px;
+}
+
 header { 
     position: fixed;
     margin: 0;

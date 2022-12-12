@@ -1,5 +1,3 @@
-"use strict"
-
 let albumBackLog = [
  {
    "Title": "Soulville",
@@ -699,7 +697,7 @@ let albumBackLog = [
  },
  {
    "Title": "Paid in Full",
-   "Artist": "Rakim",
+   "Artist": "Eric B. & Rakim",
    "Decade": 1980,
    "Genre": "Hip-Hop"
  },
@@ -993,7 +991,7 @@ let albumBackLog = [
  },
  {
    "Title": "On Top of the World",
-   "Artist": "MJG",
+   "Artist": "Eightball & MJG",
    "Decade": 1990,
    "Genre": "Southern Hip-Hop"
  },
