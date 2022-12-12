@@ -264,7 +264,7 @@ let albumBackLog = [
    "Genre": "Electronic"
  },
  {
-   "Title": "3 Plus 3",
+   "Title": "3 + 3",
    "Artist": "The Isley Brothers",
    "Decade": 1970,
    "Genre": "Funk"
