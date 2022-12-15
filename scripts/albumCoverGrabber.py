@@ -26,28 +26,26 @@ with open('../data/albumBackLog.json', 'r') as f:
 missingImages = 'MISSING IMAGES:\n'
 
 for album in albums:
-    params['artist'] = album["Artist"] #+ 'asdfsag'
-    params['album'] = album["Title"]
 
-    if 'called' in album.keys():
-        continue
+    validTitle = getValidFileName(album['Title'])
+    validArtist = getValidFileName(album['Artist'])
 
-    albumData = requests.get(url=baseURL, params=params).json()
+    filePathExt = '/images/{artist}-{album}.jpg'.format(artist=validArtist, album=validTitle)
 
-    if 'error' in albumData.keys() or albumData['album']['image'][2]['#text'] == '':
-        missingImages += album['Title'] + ' - ' + album['Artist'] + '\n'
-    else:
-        validTitle = getValidFileName(album['Title'])
-        validArtist = getValidFileName(album['Artist'])
+    try:
+        f = open(baseFilePath + filePathExt, 'r')
+        f.close()
+    except:        
+        params['artist'] = album["Artist"] #+ 'asdfsag'
+        params['album'] = album["Title"]
 
-        filePathExt = '/images/{artist}-{album}.jpg'.format(artist=validArtist, album=validTitle)
+        albumData = requests.get(url=baseURL, params=params).json()
 
-        try:
-            f = open(baseFilePath + filePathExt, 'r')
-            f.close()
-        except:
+        if 'error' in albumData.keys() or albumData['album']['image'][2]['#text'] == '':
+            missingImages += album['Title'] + ' - ' + album['Artist'] + '\n'
+        else:
             urllib.request.urlretrieve(albumData['album']['image'][2]['#text'], baseFilePath + filePathExt)
-            album['called'] = True
+        
 
 with open('missing_images.txt', 'w+') as f:
     f.write(missingImages)
