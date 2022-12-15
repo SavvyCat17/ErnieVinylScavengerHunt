@@ -49,6 +49,3 @@ for album in albums:
 
 with open('missing_images.txt', 'w+') as f:
     f.write(missingImages)
-
-with open('../data/albumBackLog.json', 'w') as f:
-    f.write(json.dumps(albums))
