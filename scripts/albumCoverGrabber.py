@@ -37,10 +37,8 @@ for album in albums:
         f.close()
     except:
         if album['Called']:
-            print(filePathExt)
             continue
 
-        print('Calling...')
         params['artist'] = album["Artist"] #+ 'asdfsag'
         params['album'] = album["Title"]
 
