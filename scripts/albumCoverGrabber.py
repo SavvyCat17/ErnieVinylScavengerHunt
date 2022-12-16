@@ -35,7 +35,12 @@ for album in albums:
     try:
         f = open(baseFilePath + filePathExt, 'r')
         f.close()
-    except:        
+    except:
+        if album['Called']:
+            print(filePathExt)
+            continue
+
+        print('Calling...')
         params['artist'] = album["Artist"] #+ 'asdfsag'
         params['album'] = album["Title"]
 
@@ -45,7 +50,13 @@ for album in albums:
             missingImages += album['Title'] + ' - ' + album['Artist'] + '\n'
         else:
             urllib.request.urlretrieve(albumData['album']['image'][2]['#text'], baseFilePath + filePathExt)
+            album['Called'] = True
+
+        
         
 
-with open('missing_images.txt', 'w+') as f:
+with open('missing_images.txt', 'w') as f:
     f.write(missingImages)
+
+with open('../data/albumBackLog.json', 'w') as f:
+    f.write(json.dumps(albums))
