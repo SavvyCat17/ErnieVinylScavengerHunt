@@ -4,7 +4,7 @@ Moanin' in the Moonlight,Howlin' Wolf,1950,Blues,True
 The Shape of Jazz to Come,Ornette Coleman,1950,Jazz,True
 Time Out,Dave Brubeck,1960,Jazz,True
 The Black Saint and the Sinner Lady,Charles Mingus,1960,Jazz,True
-The Times The Are A-Changin',Bob Dylan,1960,Folk,True
+The Times They Are A-Changin',Bob Dylan,1960,Folk,True
 I Talk With the Spirits,Roland Kirk,1960,Jazz,True
 Pastel Blues,Nina Simone,1960,Soul,True
 Ascension,John Coltrane,1960,Jazz,True
@@ -34,7 +34,7 @@ Give the Beggar a Chance,MonoMono,1970,Afrobeat,True
 In the Land of Grey and Pink,Caravan,1970,Prog Rock,True
 Pawn Hearts,Van Der Graaf Generator,1970,Prog Rock,True
 Songs of Love and Hate,Leonard Cohen,1970,Singer/Songwriter,True
-The Inner Mounting Flame,The Mahvishnu Orchestra with John McLaughlin,1970,Jazz Fusion,True
+The Inner Mounting Flame,The Mahavishnu Orchestra with John McLaughlin,1970,Jazz Fusion,True
 What's Going On,Marvin Gaye,1970,R&B,True
 Fly,Yoko Ono,1970,Experimental,True
 Sticky Fingers,The Rolling Stones,1970,Blues Rock,True
@@ -59,7 +59,7 @@ Blow by Blow,Jeff Beck,1970,Jazz Fusion,True
 Radio-Aktivität,Kraftwerk,1970,Electronic,True
 Wish You Were Here,Pink Floyd,1970,Prog Rock,True
 Neu! '75,Neu!,1970,Krautrock,True
-La Dusseldorf,La Dusseldorf,1970,Krautrock,True
+La Düsseldorf,La Düsseldorf,1970,Krautrock,True
 Small Change,Tom Waits,1970,Singer/Songwriter,True
 Zombie,Fela Kuti,1970,Afrobeat,True
 Trans-Europe Express,Kraftwerk,1970,Electronic,True
@@ -193,5 +193,7 @@ Take Me to Your Leader,King Geedorah,2000,Abstract Hip-Hop,True
 Vaudeville Villain,Viktor Vaughn,2000,Abstract Hip-Hop,True
 Madvillainy,Madvillain,2000,Abstract Hip-Hop,True
 MM...FOOD,MF DOOM,2000,Abstract Hip-Hop,True
-The Cold Vein,Cannibal Ox,2000,Abstract Hip-Hop,False
-Discovery,Daft Punk,2000,Electronic,False
+The Cold Vein,Cannibal Ox,2000,Abstract Hip-Hop,True
+Discovery,Daft Punk,2000,Electronic,True
+"The Glow, Pt. 2",The Microphones,2000,Avant-Folk,False
+Toxicity,System of a Down,2000,Nu Metal,False
