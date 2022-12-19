@@ -141,7 +141,7 @@
     },
     {
         "Title": "Phallus Dei",
-        "Artist": "Amon D\u00c3\u00bc\u00c3\u00bcl II",
+        "Artist": "Amon Düül II",
         "Decade": 1960,
         "Genre": "Krautrock",
         "Called": true
@@ -399,7 +399,7 @@
         "Called": true
     },
     {
-        "Title": "Radio-Aktivit\u00c3\u00a4t",
+        "Title": "Radio-Aktivität",
         "Artist": "Kraftwerk",
         "Decade": 1970,
         "Genre": "Electronic",
@@ -420,8 +420,8 @@
         "Called": true
     },
     {
-        "Title": "La D\u00c3\u00bcsseldorf",
-        "Artist": "La D\u00c3\u00bcsseldorf",
+        "Title": "La Düsseldorf",
+        "Artist": "La Düsseldorf",
         "Decade": 1970,
         "Genre": "Krautrock",
         "Called": true
@@ -743,7 +743,7 @@
     },
     {
         "Title": "Zen Arcade",
-        "Artist": "H\u00c3\u00bcsker D\u00c3\u00bc",
+        "Artist": "Hüsker Dü",
         "Decade": 1980,
         "Genre": "Post-Hardcore",
         "Called": true
@@ -764,7 +764,7 @@
     },
     {
         "Title": "Halber Mensch",
-        "Artist": "Einst\u00c3\u00bcrzende Neubauten",
+        "Artist": "Einstürzende Neubauten",
         "Decade": 1980,
         "Genre": "Industrial",
         "Called": true
@@ -1219,7 +1219,7 @@
     },
     {
         "Title": "Lunatic Harness",
-        "Artist": "\u00c2\u00b5-Ziq",
+        "Artist": "µ-Ziq",
         "Decade": 1990,
         "Genre": "IDM",
         "Called": true
@@ -1239,7 +1239,7 @@
         "Called": true
     },
     {
-        "Title": "F\u00e2\u2122\u00af A\u00e2\u2122\u00af \u00e2\u02c6\u017e",
+        "Title": "F♯ A♯ ∞",
         "Artist": "Godspeed You! Black Emperor",
         "Decade": 1990,
         "Genre": "Post-Rock",

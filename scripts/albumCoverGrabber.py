@@ -20,8 +20,8 @@ params = {
 
 baseFilePath = 'C:/Users/user/Documents/GitHub/ErnieVinylScavengerHunt'
 albums = []
-with open('../data/albumBackLog.json', 'r') as f:
-    albums = json.loads(f.read())
+with open('../data/albumBackLog.json', 'r', encoding='utf-8') as f:
+    albums = json.load(f)
 
 missingImages = 'MISSING IMAGES:\n'
 
@@ -31,10 +31,13 @@ for album in albums:
     validArtist = getValidFileName(album['Artist'])
 
     filePathExt = '/images/{artist}-{album}.jpg'.format(artist=validArtist, album=validTitle)
+    print(filePathExt)
 
     try:
         f = open(baseFilePath + filePathExt, 'r')
         f.close()
+        if not album['Called']:
+            album['Called'] = True
     except:
         if album['Called']:
             continue
@@ -56,5 +59,5 @@ for album in albums:
 with open('missing_images.txt', 'w') as f:
     f.write(missingImages)
 
-with open('../data/albumBackLog.json', 'w') as f:
-    f.write(json.dumps(albums))
+with open('../data/albumBackLog.json', 'w', encoding='utf-8') as f:
+    json.dump(albums, f, ensure_ascii=False, indent=4)
