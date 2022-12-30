@@ -70,13 +70,6 @@
         "Called": true
     },
     {
-        "Title": "The Velvet Underground & Nico",
-        "Artist": "The Velvet Underground & Nico",
-        "Decade": 1960,
-        "Genre": "Art Rock",
-        "Called": true
-    },
-    {
         "Title": "Are You Experienced?",
         "Artist": "Jimi Hendrix",
         "Decade": 1960,
@@ -238,13 +231,6 @@
         "Called": true
     },
     {
-        "Title": "Songs of Love and Hate",
-        "Artist": "Leonard Cohen",
-        "Decade": 1970,
-        "Genre": "Singer/Songwriter",
-        "Called": true
-    },
-    {
         "Title": "The Inner Mounting Flame",
         "Artist": "The Mahavishnu Orchestra with John McLaughlin",
         "Decade": 1970,
@@ -301,13 +287,6 @@
         "Called": true
     },
     {
-        "Title": "Zeit",
-        "Artist": "Tangerine Dream",
-        "Decade": 1970,
-        "Genre": "Electronic",
-        "Called": true
-    },
-    {
         "Title": "3+3",
         "Artist": "The Isley Brothers",
         "Decade": 1970,
@@ -330,13 +309,6 @@
     },
     {
         "Title": "Raw Power",
-        "Artist": "Iggy and The Stooges",
-        "Decade": 1970,
-        "Genre": "Proto-Punk",
-        "Called": true
-    },
-    {
-        "Title": "Raw Power (Bowie Mix)",
         "Artist": "Iggy and The Stooges",
         "Decade": 1970,
         "Genre": "Proto-Punk",
@@ -833,13 +805,6 @@
         "Called": true
     },
     {
-        "Title": "Children of God",
-        "Artist": "Swans",
-        "Decade": 1980,
-        "Genre": "Experimental Rock",
-        "Called": true
-    },
-    {
         "Title": "Straight Outta Compton",
         "Artist": "N.W.A.",
         "Decade": 1980,
@@ -1141,13 +1106,6 @@
         "Called": true
     },
     {
-        "Title": "Red Medicine",
-        "Artist": "Fugazi",
-        "Decade": 1990,
-        "Genre": "Post-Hardcore",
-        "Called": true
-    },
-    {
         "Title": "Liquid Swords",
         "Artist": "Genius/GZA",
         "Decade": 1990,
@@ -1274,13 +1232,6 @@
         "Called": true
     },
     {
-        "Title": "The Shape of Punk to Come",
-        "Artist": "Refused",
-        "Decade": 1990,
-        "Genre": "Post-Hardcore",
-        "Called": true
-    },
-    {
         "Title": "Operation: Doomsday",
         "Artist": "MF Doom",
         "Decade": 1990,
@@ -1292,13 +1243,6 @@
         "Artist": "Mos Def",
         "Decade": 1990,
         "Genre": "Conscious Hip-Hop",
-        "Called": true
-    },
-    {
-        "Title": "Deltron 3030",
-        "Artist": "Deltron 3030",
-        "Decade": 2000,
-        "Genre": "Experimental Hip-Hop",
         "Called": true
     },
     {
@@ -1383,6 +1327,20 @@
         "Artist": "System of a Down",
         "Decade": 2000,
         "Genre": "Nu Metal",
+        "Called": true
+    },
+    {
+        "Title": "Jane Doe",
+        "Artist": "Converge",
+        "Decade": 2000,
+        "Genre": "Metalcore",
+        "Called": true
+    },
+    {
+        "Title": "Kings of Crunk",
+        "Artist": "Lil Jon & The East Side Boyz",
+        "Decade": 2000,
+        "Genre": "Crunk",
         "Called": true
     }
 ]
